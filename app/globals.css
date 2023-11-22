@@ -19,5 +19,6 @@
 body {
   color: rgb(var(--foreground-rgb));
   padding-top: 1.5rem;
+  background-color:#EDE8F5 ;
  
 }
