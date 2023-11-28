@@ -14,7 +14,9 @@ module.exports = {
       },
     colors:{
       lightpurple: '#EDE8F5',
+      lightpurple2: '#DED5EB',
       darkpurple: '#271742',
+      dkpurple2: '#32234B',
       magenta: '#982176',
       lightgreen: '#D6D385',
       lightorange: '#F4C9B5',

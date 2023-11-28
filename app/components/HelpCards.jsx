@@ -2,8 +2,8 @@ import React from 'react'
 
 const HelpCards = () => {
   return (
-    <section className='h-full border border-blue-600 pl-9 pr-9 pb-7 bg-darkpurple'>
-      <h1 className='text-2xl text-lightpurple mt-3 mb-3'> I Help People With</h1>
+    <section className='h-full border-y-[1.75px] border-darkpurple pl-9 pr-9 pb-7 bg-lightpurple2'>
+      <h1 className='text-5xl text-darkpurple mt-5 mb-5'> I Help People With</h1>
       <div className='flex flex-col content-evenly lg:flex-row lg:justify-center'>
         <div className=' mb-4 lg:mr-4 border border-darkpurple bg-lightgreen h-24 lg:h-[30rem] rounded-lg lg:w-[20rem]'>
           <span>01</span>
