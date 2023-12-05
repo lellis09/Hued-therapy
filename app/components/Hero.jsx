@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image' 
 import calmingpic from '../public/calmingpic.jpg'
-import NavBarMenu from './NavBar'
+// import NavBarMenu from './NavBar'
 
 const Hero = () => {
   return (
     <div>
-       <NavBarMenu />
+       {/* <NavBarMenu /> */}
       <main className=' md:flex pl-9 pr-4 h-fit'>
       <div className=' order-2 xl:w-[45%] lg:mt-[-5.1rem] rounded-t-full z-0 relative'>
         <Image 

@@ -1,7 +1,6 @@
 'use client'
 import React, {useState} from 'react'
 import './navbar.css' 
-import Link from 'next/link';
 
 
 const NavBarMenu = () => {
@@ -54,18 +53,10 @@ const NavBarMenu = () => {
 
     <ul>
         <li className='text-lightpurple text-center '>
-          <Link href="/" className='menu-item border border-green-500 mb-2'>Home
-            {/* <a className='menu-item border border-green-500 mb-2'>Home</a> */}
-          </Link>
-          <Link href="/about" className='menu-item mb-2'>About Me
-            {/* <a className='menu-item mb-2'>About Me</a> */}
-          </Link>  
-          <Link href="/workwithme" className='menu-item mb-2'>Work With Me
-            {/* <a className='menu-item mb-2'>Work With Me</a> */}
-          </Link>
-          <Link href="/contact" className='menu-item mb-2'>Contact
-            {/* <a className='menu-item mb-2'>Contact</a> */}
-          </Link>    
+            <a href="/" className='menu-item border border-green-500 mb-2'>Home</a>
+            <a href="/aboutpage" className='menu-item mb-2'>About Me</a>
+            <a href="/" className='menu-item mb-2'>Work With Me</a>
+            <a href="/" className='menu-item mb-2'>Contact</a>
         </li>
         {/* Add more menu items as needed */}
     </ul>
