@@ -12,6 +12,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      boxShadow: {
+        '0' : '0px 4px 10px 2px rgba(0, 0, 0, 0.50);'
+      },
+      borderWidth: {
+        '1' : '1.5px'
+      },
     colors:{
       lightpurple: '#EDE8F5',
       lightpurple2: '#DED5EB',

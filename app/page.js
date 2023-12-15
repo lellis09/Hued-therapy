@@ -9,6 +9,7 @@ import HomeWorkWith from './components/HomeWorkWith'
 import CallToAction from './components/CallToAction'
 // import Page from './users/page'
 import NavBarMenu from './components/NavBar'
+import Footer from './components/Footer'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <HelpCards />
       <HomeWorkWith />
       <CallToAction />
+      <Footer />
       
 
 
