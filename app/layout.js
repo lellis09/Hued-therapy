@@ -1,15 +1,23 @@
-import { Inter } from 'next/font/google'
 import './globals.css'
 import NavBarMenu from './components/NavBar'
 import Footer from './components/Footer'
-import { Outfit } from 'next/font/google'
+import { Outfit, Italiana } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
+
+const italiana = Italiana({
+  subsets:['latin'],
+  weight:  '400',
+  variable: '--font-italiana',
+})
 
 const outfit = Outfit({
   subsets:['latin'],
-  weight: ['300', '200'],
+  weight: '200',
+  variable: '--font-outfit',
 })
+
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -18,14 +26,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div>
+    <html lang="en" className={`${italiana.variable} ${outfit.variable} `} >
+      <body className={outfit.className} >
         <NavBarMenu />  
         {children}
         <Footer />
-        </div>
-        
         </body>
     </html>
   )

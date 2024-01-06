@@ -1,11 +1,14 @@
 import React from 'react'
-import NavBarMenu from '../components/NavBar'
+import ContactHero from '../components/contactHero'
+import ContactCards from '../components/ContactCards'
 
 const Contactpage = () => {
   return (
-    <div>
-      
-      Contact</div>
+    <main>
+      <ContactHero />
+      <ContactCards />
+
+    </main>
   )
 }
 

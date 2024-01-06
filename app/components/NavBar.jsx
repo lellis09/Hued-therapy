@@ -37,7 +37,7 @@ const NavBarMenu = () => {
 
   return (
     <div className=' border-y border-darkpurple flex
-     justify-around items-center content-center z-10 relative'> 
+     justify-around items-center content-center z-20 relative'> 
      
      <nav className=' border-red-600 w-full text-lg py-4 '>
           <div className='burger-menu' onClick={updateMenu}>
@@ -58,7 +58,7 @@ const NavBarMenu = () => {
 
     <ul>
         <li className='text-lightpurple text-center '>
-          <Link href="/" className='menu-item border border-green-500 mb-2' onClick={updateMenu}>Home
+          <Link href="/" className='menu-item mb-2' onClick={updateMenu}>Home
             {/* <a className='menu-item border border-green-500 mb-2'>Home</a> */}
           </Link>
           <Link href="/about" className='menu-item mb-2' onClick={updateMenu}>About Me
@@ -75,7 +75,10 @@ const NavBarMenu = () => {
     </ul>
        </div>
 
-       <div className='border-x border-darkpurple w-full text-center max-h-full text-lg py-4 lg:px-28 '>Business Name or logo or image</div>
+       <div className='text1 text-darkpurple border-x border-darkpurple w-full text-center max-h-full text-lg py-4 lg:px-28 '>
+            <h3 className='text1 text-[38px] text-darkpurple text-center'>Tori-Ann Bright</h3>
+            <p className=' text-xl text-lightgreen text-center'>Therapist</p>
+       </div>
        <div className=' flex items-start lg:gap-2 border-3 border-lightgreen w-full text-lg py-4'> 
        <FontAwesomeIcon icon={faLinkedin} size="2xl" className="iconColor" />
        <FontAwesomeIcon icon={faInstagram} size="2xl" className="iconColor" />

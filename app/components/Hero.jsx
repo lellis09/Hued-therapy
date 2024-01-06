@@ -31,8 +31,8 @@ const Hero = () => {
   </div>
 </div> */}
       <div className=' order-2 md:order-1 w-full md:h-screen md:w-2/5 lg:w-1/2 lg:h-full'>
-        <h1 className='text-6xl md:text-8xl md:mt-[28rem] text-darkpurple border border-fuchsia-600 z-10 w-full relative md:ml-48' > Hey, I'm Tori-Ann</h1>
-        <p className='text-md text-darkpurple z-10  w-full relative md:ml-48'>Welcome, I help people deal with trauma in their childhood. And work with those who want to help better themselves in the long-term.</p>
+        <h1 className='text1 text-6xl md:text-[110px] md:mt-[28rem] text-darkpurple  z-10 w-full relative md:ml-44' > Hey, I'm Tori-Ann</h1>
+        <p className='text-[26px] text-center pt-8 text-darkpurple z-10 w-4/5 relative md:ml-44'>Welcome, I help people deal with trauma in their childhood. And work with those who want to help better themselves in the long-term and inprove their mental well-being.</p>
       </div>
       
       </main>

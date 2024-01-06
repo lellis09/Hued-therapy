@@ -1,9 +1,10 @@
 import React from 'react'
+import '../globals.css';
 
 const GettingStarted = () => {
   return (
     <main className='bg-lightpurple2 h-[40rem] '>
-         <h1 className='text-5xl text-darkpurple py-8 text-center'> Getting Started</h1>
+    <h1 className='text1 text-5xl text-darkpurple py-8 text-center'> Getting Started</h1>
       <div className='flex flex-col content-between xl:flex-row lg:justify-center pt-4 border-3 border-teal-500 xl:gap-8  gap-4'>
         <div className='flex-col px-4 py-8 bg-lightpurple2 h-auto xl:h-[450px] rounded-lg xl:w-[350px] hover:border-lightorange hover:bg-lightpurple/75 hover:scale-105 duration-75 hover:border-2'>
           <p className='text-3xl text-magenta pt-2 pb-2 lg:pb-4'>01</p>

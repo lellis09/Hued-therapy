@@ -18,26 +18,26 @@ const MyBackground = () => {
                 </div>
         </div>
         <section className='flex flex-col w-full xl:w-5/12 h-fit py-4 '>
-            <h2 className='text-5xl text-center text-darkpurple py-6'>My Background</h2>
+            <h2 className='text1 text-5xl text-center text-darkpurple py-6'>My Background</h2>
             <div className='flex border-t-[1.75px] border-darkpurple/50 px-9 mt-6 xl:w-11/12  '>
                 <div className='ml-[1rem] mt-3'>
                     <span className='text-xl text-magenta'>01</span>
-                    <h2 className='uppercase text-darkpurple text-2xl'>Education</h2>
+                    <h2 className='text1 uppercase text-darkpurple text-2xl'>Education</h2>
                     <p className='text-darkpurple'>Need a motivational speaker for an event? Let me come and  akgsn sjgna ajfbanj </p>
                 </div>
             </div>
             <div className='flex border-t-[1.75px] border-darkpurple/50 px-9 mt-6 xl:w-11/12 '>
                 <div className='ml-[1rem] mt-3'>
                     <span className='text-xl text-magenta'>02</span>
-                    <h2 className='uppercase text-darkpurple text-2xl'>Who I Help</h2>
+                    <h2 className='text1 uppercase text-darkpurple text-2xl'>Who I Help</h2>
                     <p className='text-darkpurple'>Need a motivational speaker for an event? Let me come and  akgsn sjgna ajfbanj </p>
                 </div>
             </div>
             <div className='flex border-t-[1.75px] border-darkpurple/50 px-9 mt-6 xl:w-11/12 pb-10'>
                 <div className='ml-[1rem] mt-3 '>
                     <span className='text-xl text-magenta'>03</span>
-                    <h2 className='uppercase text-darkpurple text-2xl'>Areas of Expertise</h2>
-                    <p className='text-darkpurple'>Need a motivational speaker for an event? Let me come and  akgsn sjgna ajfbanj </p>
+                    <h2 className='text1 uppercase text-darkpurple text-2xl'>Areas of Expertise</h2>
+                    <p className='text2 text-darkpurple'>Need a motivational speaker for an event? Let me come and  akgsn sjgna ajfbanj </p>
                 </div>
             </div>
         </section>

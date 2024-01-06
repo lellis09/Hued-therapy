@@ -6,12 +6,13 @@ import HowICan from '../components/HowICan'
 import GettingStarted from '../components/GettingStarted'
 import CallToAction from '../components/CallToAction'
 import NavBarMenu from '../components/NavBar'
+import AboutHero from '../components/AboutHero'
 
 const Aboutpage = () => {
   return (
     <main>
      
-      <Hero />
+      <AboutHero />
       <MyStory />
       <MyBackground />
       <HowICan />

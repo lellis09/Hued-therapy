@@ -29,9 +29,9 @@ const WorkWithHero = () => {
   </div>
 </div> */}
           <div className=' order-2 md:order-1 w-full md:h-screen md:w-2/5 lg:w-1/2 lg:h-full'>
-            <h1 className='text-6xl md:text-8xl md:mt-[28rem] text-darkpurple border border-fuchsia-600 z-10 w-1/2 lg:w-[150%] relative md:ml-30' > Encouraging & Empowering</h1>
-            <p className='text-md text-darkpurple z-10 w-full relative md:ml-48'>Welcome! I believe healing goes beyond traditional therapy sessions. I am not just a therapist; I am a partner in your journey towards mental and emotional well-being. </p>
-            <p className='text-md text-darkpurple z-10 w-full relative md:ml-48'>In addition to one-on-one counseling, I extend my support through various mediums to reach a wider audience. Take a look at some of the ways we can work together below.</p>
+            <h1 className='text1 text-6xl md:text-8xl md:mt-[28rem] text-darkpurple z-10 w-1/2 lg:w-[150%] relative md:ml-30' > Encouraging & Empowering</h1>
+            <p className='text-2xl text-darkpurple z-10 w-4/5 text-center relative md:ml-6 pt-8'>Welcome! I believe healing goes beyond traditional therapy sessions. I am not just a therapist; I am a partner in your journey towards mental and emotional well-being. </p>
+            <p className='text-2xl text-darkpurple z-10 w-4/5 text-center relative md:ml-6 pt-8'>In addition to one-on-one counseling, I extend my support through various mediums to reach a wider audience. Take a look at some of the ways we can work together below.</p>
           </div>
       </main>
 

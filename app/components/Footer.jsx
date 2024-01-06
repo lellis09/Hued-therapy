@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <section className='bg-lightpurple flex flex-col pt-4 pb-4 gap-5 items-center'>
         <div className=' h-fit w-[75%] justify-center'>
-            <h3 className='text-4xl text-darkpurple text-center'>Tori-Ann Bright</h3>
-            <p className='text-xl text-lightgreen text-center'>Therapist</p>
+            <h3 className='text1 text-4xl text-darkpurple text-center'>Tori-Ann Bright</h3>
+            <p className=' text-xl text-lightgreen text-center'>Therapist</p>
         </div>
         <div className='flex gap-20'>
           <Link className='text-darkpurple text-md font-light hover:text-lightorange' href="/">Home</Link>

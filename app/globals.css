@@ -39,3 +39,13 @@ body {
 .iconFooter:hover{
   color: #F4C9B5;
 }
+
+.text1{
+  font-family: var(--font-italiana);
+  font-weight: 400;
+}
+
+.text2{
+  font-family: var(--font-outfit);
+  font-weight: 200;
+}

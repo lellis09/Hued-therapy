@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        outfit: ['var(--font-outfit)'],
+        italiana: ['var(--font-italiana)'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -23,6 +27,7 @@ module.exports = {
       lightpurple2: '#DED5EB',
       darkpurple: '#271742',
       dkpurple2: '#32234B',
+      darkpurplehover: '#493668',
       magenta: '#982176',
       lightmagenta: '#B55198',
       lightgreen: '#D6D385',
