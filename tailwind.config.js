@@ -24,6 +24,7 @@ module.exports = {
       darkpurple: '#271742',
       dkpurple2: '#32234B',
       magenta: '#982176',
+      lightmagenta: '#B55198',
       lightgreen: '#D6D385',
       lightorange: '#F4C9B5',
     },

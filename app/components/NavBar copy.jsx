@@ -30,6 +30,12 @@ const NavBarMenu = () => {
     setIsMenuClicked(!isMenuClicked)
   }
 
+  // const updateMenu = () => {
+  //   setBurgerClass((prevClass) => (prevClass === "burger-bar clicked" ? "burger-bar unclicked" : "burger-bar clicked"));
+  //   setMenuClass((prevClass) => (prevClass === "menu visible" ? "menu hidden" : "menu visible"));
+  //   setIsMenuClicked((prevClicked) => !prevClicked);
+  // };
+
   return (
     <div className=' border-y border-darkpurple flex
      justify-around items-center content-center z-10 relative'> 

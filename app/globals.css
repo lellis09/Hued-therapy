@@ -22,3 +22,20 @@ body {
   background-color:#EDE8F5 ;
  
 }
+
+.iconColor{
+  color: #271742;
+  padding: 0 0 0 2rem;
+}
+
+.iconFooter{
+  color: #271742;
+}
+
+.iconColor:hover{
+  color: #F4C9B5;
+}
+
+.iconFooter:hover{
+  color: #F4C9B5;
+}

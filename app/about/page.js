@@ -1,8 +1,23 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import MyBackground from '../components/MyBackground'
+import MyStory from '../components/MyStory'
+import HowICan from '../components/HowICan'
+import GettingStarted from '../components/GettingStarted'
+import CallToAction from '../components/CallToAction'
+import NavBarMenu from '../components/NavBar'
 
 const Aboutpage = () => {
   return (
-    <div>About page</div>
+    <main>
+     
+      <Hero />
+      <MyStory />
+      <MyBackground />
+      <HowICan />
+      <GettingStarted />
+      <CallToAction />
+    </main>
   )
 }
 

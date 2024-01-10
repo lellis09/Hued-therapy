@@ -14,14 +14,11 @@ import Footer from './components/Footer'
 const Home = () => {
   return (
     <main className="bg-lightpurple">
-      <NavBarMenu />
+    
       <Hero />
       <HelpCards />
       <HomeWorkWith />
       <CallToAction />
-      <Footer />
-      
-
 
     </main>
   )

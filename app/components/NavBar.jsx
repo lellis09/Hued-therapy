@@ -2,6 +2,10 @@
 import React, {useState} from 'react'
 import './navbar.css' 
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook} from '@fortawesome/free-brands-svg-icons'
 
 
 const NavBarMenu = () => {
@@ -54,26 +58,29 @@ const NavBarMenu = () => {
 
     <ul>
         <li className='text-lightpurple text-center '>
-          <Link href="/" className='menu-item border border-green-500 mb-2'>Home
+          <Link href="/" className='menu-item border border-green-500 mb-2' onClick={updateMenu}>Home
             {/* <a className='menu-item border border-green-500 mb-2'>Home</a> */}
           </Link>
-          <Link href="/about" className='menu-item mb-2'>About Me
+          <Link href="/about" className='menu-item mb-2' onClick={updateMenu}>About Me
             {/* <a className='menu-item mb-2'>About Me</a> */}
           </Link>  
-          <Link href="/workwithme" className='menu-item mb-2'>Work With Me
+          <Link href="/workwithme" className='menu-item mb-2' onClick={updateMenu}>Work With Me
             {/* <a className='menu-item mb-2'>Work With Me</a> */}
           </Link>
-          <Link href="/contact" className='menu-item mb-2'>Contact
+          <Link href="/contact" className='menu-item mb-2' onClick={updateMenu}>Contact
             {/* <a className='menu-item mb-2'>Contact</a> */}
           </Link>    
         </li>
         {/* Add more menu items as needed */}
     </ul>
        </div>
-     
-      
-       <div className='border-x border-darkpurple w-full px-[50px] text-center max-h-full text-lg py-4 '>Business Name or logo or image</div>
-       <div className=' border-darkpurple w-full text-lg py-4'> Social icons</div>
+
+       <div className='border-x border-darkpurple w-full text-center max-h-full text-lg py-4 lg:px-28 '>Business Name or logo or image</div>
+       <div className=' flex items-start lg:gap-2 border-3 border-lightgreen w-full text-lg py-4'> 
+       <FontAwesomeIcon icon={faLinkedin} size="2xl" className="iconColor" />
+       <FontAwesomeIcon icon={faInstagram} size="2xl" className="iconColor" />
+       <FontAwesomeIcon icon={faFacebook} size="2xl" className="iconColor" />
+       </div>
        
     </div>
  

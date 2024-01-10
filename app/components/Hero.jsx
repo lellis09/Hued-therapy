@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div>
        {/* <NavBarMenu /> */}
-      <main className=' md:flex pl-9 pr-4 h-fit'>
-      <div className=' order-2 xl:w-[45%] lg:mt-[-5.1rem] rounded-t-full z-0 relative'>
+      <main className=' flex flex-col md:flex-row pl-9 pr-4 h-screen'>
+      <div className=' order-1 md:order-2 w-3/4 h-3/4 md:w-[50%] lg:w-[45%] md:h-auto md:mt-[-5.1rem] rounded-t-full z-0 relative'>
         <Image 
         src= {calmingpic} 
         alt="picture of calming purple ocean" 
@@ -30,9 +30,9 @@ const Hero = () => {
     />
   </div>
 </div> */}
-      <div className=' order-1 w-full md:w-1/2 md:h-full'>
-        <h1 className='text-8xl text-darkpurple border border-fuchsia-600' > Hey, I'm Tori-Ann</h1>
-        <p className='text-md text-darkpurple'>Welcome, I help people deal with trauma in their childhood. And work with those who want to help better themselves in the long-term.</p>
+      <div className=' order-2 md:order-1 w-full md:h-screen md:w-2/5 lg:w-1/2 lg:h-full'>
+        <h1 className='text-6xl md:text-8xl md:mt-[28rem] text-darkpurple border border-fuchsia-600 z-10 w-full relative md:ml-48' > Hey, I'm Tori-Ann</h1>
+        <p className='text-md text-darkpurple z-10  w-full relative md:ml-48'>Welcome, I help people deal with trauma in their childhood. And work with those who want to help better themselves in the long-term.</p>
       </div>
       
       </main>
