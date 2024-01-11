@@ -9,13 +9,13 @@ const HowICan = () => {
                     <div className='bg-lightpurple rounded-full w-16 h-16'>
                     </div>
                         <h4 className='uppercase text-4xl text-darkpurple font-light'>Coping</h4>
-                        <p className='text-sm text-darkpurple text-center'>"I think it's really important to take the stigma away from mental health. I think it's really important to take the stigma away from mental health”</p>
+                        <p className='text-sm text-darkpurple text-center'>"I think it&apos;s really important to take the stigma away from mental health. I think it&apos;s really important to take the stigma away from mental health”</p>
                 </div>
                 <div className='border-[1.75px] border-magenta w-64 h-72 flex flex-col gap-3 pt-6 items-center px-4 rounded-md '>
                     <div className='bg-lightmagenta rounded-full w-16 h-16'>
                     </div>
                         <h4 className='uppercase text-4xl text-darkpurple font-light'>Enhancing</h4>
-                        <p className='text-sm text-darkpurple text-center'>"I think it's really important to take the stigma away from mental health. I think it's really important to take the stigma away from mental health”</p>
+                        <p className='text-sm text-darkpurple text-center'>"I think it&apos;s really important to take the stigma away from mental health. I think it&apos;s really important to take the stigma away from mental health”</p>
                 </div>
             </div>
             <div className='flex flex-col gap-6 pt-12 mt-14'>
@@ -23,13 +23,13 @@ const HowICan = () => {
                     <div className='bg-lightmagenta rounded-full w-16 h-16'>
                     </div>
                         <h4 className='uppercase text-4xl text-darkpurple font-light'>Improving</h4>
-                        <p className='text-sm text-darkpurple text-center'>"I think it's really important to take the stigma away from mental health. I think it's really important to take the stigma away from mental health”</p>
+                        <p className='text-sm text-darkpurple text-center'>"I think it&apos;s really important to take the stigma away from mental health. I think it&apos;s really important to take the stigma away from mental health”</p>
                 </div>
                 <div className='bg-lightmagenta w-64 h-72 flex flex-col gap-3 pt-6 items-center px-4 rounded-md'>
                     <div className='bg-lightpurple rounded-full w-16 h-16'>
                     </div>
                         <h4 className='uppercase text-4xl text-darkpurple font-light'>Growing</h4>
-                        <p className='text-sm text-darkpurple text-center'>"I think it's really important to take the stigma away from mental health. I think it's really important to take the stigma away from mental health”</p>
+                        <p className='text-sm text-darkpurple text-center'>"I think it&apos;s really important to take the stigma away from mental health. I think it&apos;s really important to take the stigma away from mental health”</p>
                 </div>
             </div>
         </section>
