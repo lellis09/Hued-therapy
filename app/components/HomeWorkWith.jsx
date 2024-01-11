@@ -17,6 +17,7 @@ const HomeWorkWith = () => {
                 <div className=' w-28 lg:w-30 mt-3 '>
                     <Image
                     src={calmingpic}
+                    alt="picture of calming purple ocean" 
                     style={{
                         width:'100%',
                         height: '100%',
@@ -33,6 +34,7 @@ const HomeWorkWith = () => {
                 <div className='w-28 lg:w-30 mt-3'>
                     <Image
                     src={calmingpic}
+                    alt="picture of calming purple ocean" 
                     style={{
                         width:'100%',
                         height: '100%',
@@ -49,6 +51,7 @@ const HomeWorkWith = () => {
                 <div className='w-28 lg:w-30 mt-3'>
                     <Image
                     src={calmingpic}
+                    alt="picture of calming purple ocean" 
                     style={{
                         width:'100%',
                         height: '100%',
