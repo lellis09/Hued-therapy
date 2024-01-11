@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactHero from '../components/contactHero'
+import ContactHero from '../components/ContactHero'
 import ContactCards from '../components/ContactCards'
 
 const Contactpage = () => {
