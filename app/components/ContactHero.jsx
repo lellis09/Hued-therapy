@@ -9,7 +9,7 @@ const ContactHero = () => {
      Transform your well-being journey
      </h2>
      <p className='text-xl px-2 py-4 w-2/3 lg:w-2/5 text-center text-darkpurple'>
-     Schedule a therapy session today. Taking the first step toward healing is an act of courage. Don't hesitate to reach out – your well-being matters. Let's work together to help you live a more fulfilling life. 
+     Schedule a therapy session today. Taking the first step toward healing is an act of courage. Don't hesitate to reach out, your well-being matters. Let's work together to help you live a more fulfilling life. 
      </p>
  </div>
    </section>

@@ -7,9 +7,9 @@ const HomeWorkWith = () => {
     <section className='bg-lightpurple flex flex-col pl-9 pr-9 pt-8 xl:flex-row mb-[3rem]'>
         <div className='items-center  xl:w-4/6 pt-4  mr-14'>
             <h1 className='text1 text-[60px] text-darkpurple mb-[1.5rem] pt-[1rem] text-center tracking-wide'>How to Work With Me</h1>
-            <p className='text-darkpurple xl:w-3/4 xl:px-16 xl:mx-auto text-[26px] text-lg text-center'>Schedule a therapy session today. Taking the first step toward healing is an act of courage. Don't hesitate to reach out – your well-being matters.
+            <p className='text-darkpurple xl:w-3/4 xl:px-16 xl:mx-auto text-[26px] text-lg text-center'>Schedule a therapy session today. Taking the first step toward healing is an act of courage. Don't hesitate to reach out, your well-being matters.
                  Let's work together to help you live a more fulfilling life. </p>
-            <p className='text-darkpurple xl:w-3/4 xl:px-16 xl:mx-auto pt-8 text-[26px] text-lg text-center'>Schedule a therapy session today. Taking the first step toward healing is an act of courage. Don't hesitate to reach out – your well-being matters.
+            <p className='text-darkpurple xl:w-3/4 xl:px-16 xl:mx-auto pt-8 text-[26px] text-lg text-center'>Schedule a therapy session today. Taking the first step toward healing is an act of courage. Don't hesitate to reach out, your well-being matters.
                  Let's work together to help you live a more fulfilling life. </p>
         </div>
         <section className='lg:pl-4 xl:5/12 py-6'>
