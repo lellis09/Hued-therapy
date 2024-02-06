@@ -27,7 +27,7 @@ const ContactCards = () => {
             <h3 className='text-darkpurple text-xl'>(313) 854-2750</h3>
           </div>
       </div>
-      
+      {/* Tori will be on ZOcDoc (Feb) and Healthgrade coming (MArch)  */}
     </section>
   )
 }

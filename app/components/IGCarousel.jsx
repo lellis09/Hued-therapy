@@ -5,7 +5,7 @@ import calmingpic from '../public/calmingpic.jpg'
 const IGCarousel = () => {
   return (
     <section className=' h-[110%] mt-8'>
-    <h1 className='text1 text-5xl text-darkpurple py-8 text-center pb-10'> Getting Started</h1>
+    <h1 className='text1 text-5xl text-darkpurple py-8 text-center pb-10'> Instagram Carousel</h1>
     <div className='flex gap-20 justify-center pt-6 pb-28'>
     <div className=' w-[15%] h-[15%]'>
                 <Image 
